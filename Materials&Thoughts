@@ -1,0 +1,23 @@
+List of SP500 wiki:         https://en.wikipedia.org/wiki/List_of_S%26P_500_companies
+SP 500 index :              https://en.wikipedia.org/wiki/S%26P_500_Index
+SP 500 official website:    http://us.spindices.com/indices/equity/sp-500#
+Eligibility Criteria:       file:///C:/Users/Liansai/Downloads/doc/CS656/proj/methodology-sp-us-indices.pdf <Copy retrieved from SP500>
+                            https://money.stackexchange.com/questions/27332/who-determines-and-how-the-composition-of-the-sp-500-index
+
+
+Thoughts
+
+1. Bias on sample population - compare MISC industrial classification/percentage from SP500 vs sample.
+
+2. Survival bias - CEOs who don't have twitter account:
+
+-   tend to be less modernized people => less wisdom on current market, probably owning a sunset industry
+OR  more focused on management => better corporate efficiency
+OR  do not have leisure time to run social media => business is in a swamp
+
+
+IMPACT on long-term SP500 index
+
+%ppl in CEOs who have twitter account ? how to quantify..
+
+
