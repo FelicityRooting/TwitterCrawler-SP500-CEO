@@ -3,6 +3,10 @@ SP 500 index :              https://en.wikipedia.org/wiki/S%26P_500_Index
 SP 500 official website:    http://us.spindices.com/indices/equity/sp-500#
 Eligibility Criteria:       file:///C:/Users/Liansai/Downloads/doc/CS656/proj/methodology-sp-us-indices.pdf <Copy retrieved from SP500>
                             https://money.stackexchange.com/questions/27332/who-determines-and-how-the-composition-of-the-sp-500-index
+SP500's CEO:                join table with wikipedia> https://en.wikipedia.org/wiki/List_of_chief_executive_officers
+
+
+in wikipedia, click link to goto the EDGAR search(=US SEC filing) > 10K file > search "Power of Attorney" & 
 
 
 Thoughts
@@ -21,3 +25,11 @@ IMPACT on long-term SP500 index
 %ppl in CEOs who have twitter account ? how to quantify..
 
 
+3. Crawling CEO names:
+
+simulate clicks:
+
+> Wikipedia > SEC filings link > if (contains 10K file) {click} else {click [next40]button on lower right}  ...
+... > OPEN txt file > SEARCH "POWER OF ATTORNEY" with no "(included" followed within 20 characters ...
+... > find the name corresponding to the rows with Chief Executive Officer ...
+<div> block  ||  <td> block, how to deal with this?
