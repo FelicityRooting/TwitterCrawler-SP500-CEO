@@ -9,6 +9,8 @@ What were these bosses thinking everyday ...?
 - SECEdgar  https://github.com/GalaxyXC/sec-edgar
 - TextBlob  http://textblob.readthedocs.io/en/dev/advanced_usage.html#sentiment-analyzers
 - nltk      http://www.nltk.org/
+- sklearn   http://scikit-learn.org/stable/modules/neural_networks_supervised.html
+
 
 * SEC-Edgar's code is MODIFIED to enhance functionality.
 * <Crawler.py>
