@@ -8,12 +8,12 @@ import csv
 # sys.path.append("D:/workspace/GitHub/tweepy")
 import tweepy  # https://github.com/tweepy/tweepy <- imported from GitHub Clone D:\workspace\GitHub\Tweepy
 
-
+XXXXXXXXXXXXXXXXXXXXXXXXX
 # Twitter API credentials
-consumer_key = "EoV50LfF854f2DFPr6FGpQq26"
-consumer_secret = "J2rDWovgDHy7Xa4IlFJ0M8AGGzN4f8458V4yQnOE0GfVtrcFaV"
-access_key = "918550319726059526-9qFOpZBPDCn0xlV7fF0iEYj4uahdTCf"
-access_secret = "zsFhlIfkJsysXsLfJzBreerrOl9VFJ1Koyc3QuVnQaCQz"
+consumer_key = "XXXXXXXXXXXXXXXXXXXXXXXXX"
+consumer_secret = "XXXXXXXXXXXXXXXXXXXXXXXXX"
+access_key = "XXXXXXXXXXXXXXXXXXXXXXXXX"
+access_secret = "XXXXXXXXXXXXXXXXXXXXXXXXX"
 
 # User name to be fetched
 # Elon Musk / @elonmusk
