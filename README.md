@@ -7,8 +7,8 @@ What were these bosses thinking everyday ...?
 - pandas    https://pandas.pydata.org/pandas-docs/stable/index.html
 - tweepy    https://github.com/tweepy/tweepy
 - SECEdgar  https://github.com/GalaxyXC/sec-edgar
-- TextBlob  http://textblob.readthedocs.io/en/dev/advanced_usage.html#sentiment-analyzers
-
+- TextBlob  http://textblob.readthedocs.io/en/dev/advanced_usage.html#sentiment-analyzers
+- nltk      http://www.nltk.org/
 
 * SEC-Edgar's code is MODIFIED to enhance functionality.
 * <Crawler.py>
