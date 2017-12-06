@@ -24,8 +24,10 @@ username = "fengxian"
 # Twitter only allows access to a users most recent 3240 tweets with this method
 def get_all_tweets(twitter_id):
     # authorize twitter, initialize tweepy
+    #设置API和token，这个需要注册后在apps.twitter.com新建application后获得
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_key, access_secret)
+    #根据auth返回API对象，用于具体返回responses
     api = tweepy.API(auth)
 
     # initialize a list to hold all the tweepy Tweets
