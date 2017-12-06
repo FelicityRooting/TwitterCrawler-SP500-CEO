@@ -2,7 +2,7 @@
 What were these bosses thinking everyday ...?
 
 
-# 3rd party package/dependencies
+# 3rd party package/dependencies we used
 
 - pandas    https://pandas.pydata.org/pandas-docs/stable/index.html
 - tweepy    https://github.com/tweepy/tweepy
@@ -20,3 +20,5 @@ What were these bosses thinking everyday ...?
   -   &datea: retrieve report After date str(priorto) -> &dateb: retrieve report Before date str(priorto)
   -   soup = BeautifulSoup(data) -> soup = BeautifulSoup(data, "lxml") #suppress parser warning
   -   ......
+
+# steps
