@@ -8,16 +8,16 @@ import csv
 # sys.path.append("D:/workspace/GitHub/tweepy")
 import tweepy  # https://github.com/tweepy/tweepy <- imported from GitHub Clone D:\workspace\GitHub\Tweepy
 
-XXXXXXXXXXXXXXXXXXXXXXXXX
+# XXXXXXXXXXXXXXXXXXXXXXXXX
 # Twitter API credentials
-consumer_key = "XXXXXXXXXXXXXXXXXXXXXXXXX"
-consumer_secret = "XXXXXXXXXXXXXXXXXXXXXXXXX"
-access_key = "XXXXXXXXXXXXXXXXXXXXXXXXX"
-access_secret = "XXXXXXXXXXXXXXXXXXXXXXXXX"
+consumer_key = "SAHnTZbkW1B3gCR7l4hBPapVR"
+consumer_secret = "UMXUFeiYAddSQAFjPP10VX9eDb40QSSlVLAF1f6VFPz2G5oM3j"
+access_key = "918549121853779968-r0WlJS4XWhuHL9ReLLhcflFuMZQ7B4f"
+access_secret = "6eSW5CM8HSHTeRtAPHCSVziM3WbbjiRoz4vgFh8hFJ3kG"
 
 # User name to be fetched
 # Elon Musk / @elonmusk
-# username = "elonmusk"
+username = "fengxian"
 # username = "khala06896201"
 
 # Twitter only allows access to a users most recent 3240 tweets with this method

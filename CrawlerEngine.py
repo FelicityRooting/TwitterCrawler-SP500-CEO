@@ -14,7 +14,7 @@ from tweepy import error
 # sys.path.append("D:\workspace\TwCrawler")
 import TwCrawler
 
-os.chdir(os.path.abspath('D:\workspace\TwCrawler'))
+os.chdir(os.path.abspath('D:\computer science'))
 fname = os.path.abspath(os.path.join(os.getcwd() + '\\' + 'userid.txt'))
 try:
     with open(fname, 'r') as f:
