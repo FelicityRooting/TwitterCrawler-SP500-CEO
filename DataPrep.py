@@ -58,8 +58,9 @@ def tokenizeTweets(s):
         custom_stopwords = ['this', 'n', 'r', 'u', '2']
         punctuation = ['!', ',', '', '.', '\\', '?', ':', '\"', '&', '-', '/', '', '(', ')', '\'', '$', '@']
         stop = stop.union(custom_stopwords).union(punctuation)
-
-    tknz = TweetTokenizer(reduce_len=True, strip_handles=True)  # reduce_len: shorten repeated char, handles = @XXXX
+    # class nltk.tokenize.casual.TweetTokenizer(preserve_case=True, reduce_len=False, strip_handles=False)[source]
+    tknz = TweetTokenizer(reduce_len = True, strip_handles = True)  # reduce_len: Replace repeated character
+    # sequences of length 3 or greater with sequences of length 3, handles = @XXXX
     tokens = tknz.tokenize(sentence)
     lst = [word.lower() for word in tokens if (word.lower() not in stop)]
     return lst
